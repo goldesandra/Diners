@@ -1,0 +1,404 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ED11E3AA1E3BB4E000C6D077 /* DinersDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED11E3A91E3BB4E000C6D077 /* DinersDetailViewController.swift */; };
+		ED11E3AE1E3CCDE100C6D077 /* DinersDetailTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED11E3AD1E3CCDE100C6D077 /* DinersDetailTableViewCell.swift */; };
+		ED11E3B11E3D3D9E00C6D077 /* RateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED11E3B01E3D3D9E00C6D077 /* RateViewController.swift */; };
+		ED11E3B31E3E2E3800C6D077 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED11E3B21E3E2E3800C6D077 /* MapViewController.swift */; };
+		ED11E3B61E3E2EAB00C6D077 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED11E3B51E3E2EAB00C6D077 /* MapKit.framework */; };
+		ED11E3B81E3E3ED700C6D077 /* NewDinerTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED11E3B71E3E3ED700C6D077 /* NewDinerTableViewController.swift */; };
+		ED3615221E37B2BF004B6306 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED3615211E37B2BF004B6306 /* AppDelegate.swift */; };
+		ED3615271E37B2BF004B6306 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED3615251E37B2BF004B6306 /* Main.storyboard */; };
+		ED3615291E37B2BF004B6306 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED3615281E37B2BF004B6306 /* Assets.xcassets */; };
+		ED36152C1E37B2BF004B6306 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED36152A1E37B2BF004B6306 /* LaunchScreen.storyboard */; };
+		ED3615341E37B408004B6306 /* DinersTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED3615331E37B408004B6306 /* DinersTableViewController.swift */; };
+		ED3615361E37B77F004B6306 /* DinersTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED3615351E37B77F004B6306 /* DinersTableViewCell.swift */; };
+		ED3DA7AC1E3FCFFF00F4F065 /* ContentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED3DA7AB1E3FCFFF00F4F065 /* ContentViewController.swift */; };
+		ED3DA7B11E3FD12700F4F065 /* PageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED3DA7B01E3FD12700F4F065 /* PageViewController.swift */; };
+		ED3DA7B31E40CB4700F4F065 /* AboutTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED3DA7B21E40CB4700F4F065 /* AboutTableViewController.swift */; };
+		ED53B5671E44B09E005DCD7D /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED53B5661E44B09E005DCD7D /* WebViewController.swift */; };
+		ED8BDA451E3E796B00E4B949 /* CoreDataStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED8BDA441E3E796B00E4B949 /* CoreDataStack.swift */; };
+		ED8BDA481E3E7AAD00E4B949 /* Diners.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = ED8BDA461E3E7AAD00E4B949 /* Diners.xcdatamodeld */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		ED11E3A91E3BB4E000C6D077 /* DinersDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DinersDetailViewController.swift; sourceTree = "<group>"; };
+		ED11E3AD1E3CCDE100C6D077 /* DinersDetailTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DinersDetailTableViewCell.swift; sourceTree = SOURCE_ROOT; };
+		ED11E3B01E3D3D9E00C6D077 /* RateViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RateViewController.swift; sourceTree = "<group>"; };
+		ED11E3B21E3E2E3800C6D077 /* MapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		ED11E3B51E3E2EAB00C6D077 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		ED11E3B71E3E3ED700C6D077 /* NewDinerTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewDinerTableViewController.swift; sourceTree = "<group>"; };
+		ED36151E1E37B2BE004B6306 /* Diners.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Diners.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED3615211E37B2BF004B6306 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		ED3615261E37B2BF004B6306 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		ED3615281E37B2BF004B6306 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ED36152B1E37B2BF004B6306 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		ED36152D1E37B2BF004B6306 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ED3615331E37B408004B6306 /* DinersTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DinersTableViewController.swift; sourceTree = "<group>"; };
+		ED3615351E37B77F004B6306 /* DinersTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DinersTableViewCell.swift; sourceTree = "<group>"; };
+		ED3DA7AB1E3FCFFF00F4F065 /* ContentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentViewController.swift; sourceTree = "<group>"; };
+		ED3DA7B01E3FD12700F4F065 /* PageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PageViewController.swift; sourceTree = "<group>"; };
+		ED3DA7B21E40CB4700F4F065 /* AboutTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AboutTableViewController.swift; sourceTree = "<group>"; };
+		ED53B5661E44B09E005DCD7D /* WebViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
+		ED8BDA441E3E796B00E4B949 /* CoreDataStack.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreDataStack.swift; sourceTree = "<group>"; };
+		ED8BDA471E3E7AAD00E4B949 /* Diners.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Diners.xcdatamodel; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ED36151B1E37B2BE004B6306 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED11E3B61E3E2EAB00C6D077 /* MapKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ED11E3AF1E3CCE0A00C6D077 /* DinersDetail */ = {
+			isa = PBXGroup;
+			children = (
+				ED11E3AD1E3CCDE100C6D077 /* DinersDetailTableViewCell.swift */,
+				ED11E3A91E3BB4E000C6D077 /* DinersDetailViewController.swift */,
+			);
+			name = DinersDetail;
+			sourceTree = "<group>";
+		};
+		ED11E3B41E3E2EAB00C6D077 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ED11E3B51E3E2EAB00C6D077 /* MapKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		ED3615151E37B2BE004B6306 = {
+			isa = PBXGroup;
+			children = (
+				ED3615201E37B2BF004B6306 /* Diners */,
+				ED36151F1E37B2BE004B6306 /* Products */,
+				ED11E3B41E3E2EAB00C6D077 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		ED36151F1E37B2BE004B6306 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ED36151E1E37B2BE004B6306 /* Diners.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ED3615201E37B2BF004B6306 /* Diners */ = {
+			isa = PBXGroup;
+			children = (
+				ED11E3AF1E3CCE0A00C6D077 /* DinersDetail */,
+				ED3DA7AF1E3FD02000F4F065 /* Page */,
+				ED3615211E37B2BF004B6306 /* AppDelegate.swift */,
+				ED3615251E37B2BF004B6306 /* Main.storyboard */,
+				ED53B5661E44B09E005DCD7D /* WebViewController.swift */,
+				ED3DA7B21E40CB4700F4F065 /* AboutTableViewController.swift */,
+				ED11E3B71E3E3ED700C6D077 /* NewDinerTableViewController.swift */,
+				ED8BDA441E3E796B00E4B949 /* CoreDataStack.swift */,
+				ED11E3B21E3E2E3800C6D077 /* MapViewController.swift */,
+				ED11E3B01E3D3D9E00C6D077 /* RateViewController.swift */,
+				ED3615351E37B77F004B6306 /* DinersTableViewCell.swift */,
+				ED3615331E37B408004B6306 /* DinersTableViewController.swift */,
+				ED3615281E37B2BF004B6306 /* Assets.xcassets */,
+				ED8BDA461E3E7AAD00E4B949 /* Diners.xcdatamodeld */,
+				ED36152D1E37B2BF004B6306 /* Info.plist */,
+				ED36152A1E37B2BF004B6306 /* LaunchScreen.storyboard */,
+			);
+			path = Diners;
+			sourceTree = "<group>";
+		};
+		ED3DA7AF1E3FD02000F4F065 /* Page */ = {
+			isa = PBXGroup;
+			children = (
+				ED3DA7AB1E3FCFFF00F4F065 /* ContentViewController.swift */,
+				ED3DA7B01E3FD12700F4F065 /* PageViewController.swift */,
+			);
+			name = Page;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ED36151D1E37B2BE004B6306 /* Diners */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ED3615301E37B2BF004B6306 /* Build configuration list for PBXNativeTarget "Diners" */;
+			buildPhases = (
+				ED36151A1E37B2BE004B6306 /* Sources */,
+				ED36151B1E37B2BE004B6306 /* Frameworks */,
+				ED36151C1E37B2BE004B6306 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Diners;
+			productName = Diners;
+			productReference = ED36151E1E37B2BE004B6306 /* Diners.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ED3615161E37B2BE004B6306 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Александра Гольде";
+				TargetAttributes = {
+					ED36151D1E37B2BE004B6306 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 3HCFU84273;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Maps.iOS = {
+								enabled = 0;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = ED3615191E37B2BE004B6306 /* Build configuration list for PBXProject "Diners" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ED3615151E37B2BE004B6306;
+			productRefGroup = ED36151F1E37B2BE004B6306 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ED36151D1E37B2BE004B6306 /* Diners */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ED36151C1E37B2BE004B6306 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED36152C1E37B2BF004B6306 /* LaunchScreen.storyboard in Resources */,
+				ED3615291E37B2BF004B6306 /* Assets.xcassets in Resources */,
+				ED3615271E37B2BF004B6306 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ED36151A1E37B2BE004B6306 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED11E3AE1E3CCDE100C6D077 /* DinersDetailTableViewCell.swift in Sources */,
+				ED3DA7B31E40CB4700F4F065 /* AboutTableViewController.swift in Sources */,
+				ED11E3AA1E3BB4E000C6D077 /* DinersDetailViewController.swift in Sources */,
+				ED3615341E37B408004B6306 /* DinersTableViewController.swift in Sources */,
+				ED3DA7B11E3FD12700F4F065 /* PageViewController.swift in Sources */,
+				ED3615221E37B2BF004B6306 /* AppDelegate.swift in Sources */,
+				ED8BDA451E3E796B00E4B949 /* CoreDataStack.swift in Sources */,
+				ED11E3B81E3E3ED700C6D077 /* NewDinerTableViewController.swift in Sources */,
+				ED3615361E37B77F004B6306 /* DinersTableViewCell.swift in Sources */,
+				ED8BDA481E3E7AAD00E4B949 /* Diners.xcdatamodeld in Sources */,
+				ED3DA7AC1E3FCFFF00F4F065 /* ContentViewController.swift in Sources */,
+				ED53B5671E44B09E005DCD7D /* WebViewController.swift in Sources */,
+				ED11E3B11E3D3D9E00C6D077 /* RateViewController.swift in Sources */,
+				ED11E3B31E3E2E3800C6D077 /* MapViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		ED3615251E37B2BF004B6306 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ED3615261E37B2BF004B6306 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		ED36152A1E37B2BF004B6306 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ED36152B1E37B2BF004B6306 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ED36152E1E37B2BF004B6306 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		ED36152F1E37B2BF004B6306 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ED3615311E37B2BF004B6306 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 3HCFU84273;
+				INFOPLIST_FILE = Diners/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "bla-bla.Diners";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		ED3615321E37B2BF004B6306 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 3HCFU84273;
+				INFOPLIST_FILE = Diners/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "bla-bla.Diners";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ED3615191E37B2BE004B6306 /* Build configuration list for PBXProject "Diners" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED36152E1E37B2BF004B6306 /* Debug */,
+				ED36152F1E37B2BF004B6306 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ED3615301E37B2BF004B6306 /* Build configuration list for PBXNativeTarget "Diners" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED3615311E37B2BF004B6306 /* Debug */,
+				ED3615321E37B2BF004B6306 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		ED8BDA461E3E7AAD00E4B949 /* Diners.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				ED8BDA471E3E7AAD00E4B949 /* Diners.xcdatamodel */,
+			);
+			currentVersion = ED8BDA471E3E7AAD00E4B949 /* Diners.xcdatamodel */;
+			path = Diners.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = ED3615161E37B2BE004B6306 /* Project object */;
+}
